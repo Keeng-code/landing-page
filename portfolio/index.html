@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio RPG — BTS SIO</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #0a0f1e, #05070f);
+  color: #e5e7eb;
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  color: #7dd3fc;
+  text-shadow: 0 0 12px rgba(125,211,252,0.5);
+}
+
+.subtitle {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 50px;
+  color: #94a3b8;
+  font-size: 1.05rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 22px;
+}
+
+.skill-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+  border: 1px solid rgba(125,211,252,0.35);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 0 25px rgba(125,211,252,0.08);
+  transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(125,211,252,0.15), transparent);
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.skill-card:hover::before {
+  opacity: 1;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 40px rgba(125,211,252,0.25);
+}
+
+.skill-title {
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: #7dd3fc;
+  margin-bottom: 8px;
+}
+
+.skill-desc {
+  font-size: 0.95rem;
+  color: #cbd5f5;
+  margin-bottom: 12px;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: rgba(125,211,252,0.15);
+  border: 1px solid rgba(125,211,252,0.4);
+}
+</style>
+</head>
+
+<body>
+
+<h2>⚔️ Skill Tree — BTS SIO (1ʳᵉ Année)</h2>
+<p class="subtitle">
+Chaque compétence représente une **quête accomplie** et une **progression dans mon parcours informatique**.
+</p>
+
+<div class="skills-grid">
+
+  <div class="skill-card">
+    <div class="skill-title">📊 Plan stratégique — Projet Workfish</div>
+    <div class="skill-desc">Définition des objectifs, organisation des étapes et suivi d’avancement.</div>
+    <div class="skill-tag">Travail en mode projet</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">⚖️ Analyse des règles juridiques d’un site</div>
+    <div class="skill-desc">Étude RGPD, conformité légale et protection des données.</div>
+    <div class="skill-tag">Présence numérique</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">🛡️ Détection de failles de sécurité web</div>
+    <div class="skill-desc">Audit des vulnérabilités et recommandations correctives.</div>
+    <div class="skill-tag">Réponse aux incidents</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">🎨 Choix du design et UX d’un site</div>
+    <div class="skill-desc">Optimisation visuelle et expérience utilisateur.</div>
+    <div class="skill-tag">Présence numérique</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">🖥️ Création et gestion de machines virtuelles</div>
+    <div class="skill-desc">Déploiement d’environnements Windows, Debian et Ubuntu.</div>
+    <div class="skill-tag">Gestion du patrimoine</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">🔐 Administration Active Directory (AD DS)</div>
+    <div class="skill-desc">Gestion des utilisateurs, groupes et droits d’accès.</div>
+    <div class="skill-tag">Gestion du patrimoine</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">🧩 Installation & configuration GLPI</div>
+    <div class="skill-desc">Mise en place d’un système de support et d’inventaire IT.</div>
+    <div class="skill-tag">Mise à disposition de services</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">📦 Inventaire du parc informatique</div>
+    <div class="skill-desc">Recensement et suivi des machines d’une infrastructure.</div>
+    <div class="skill-tag">Gestion du patrimoine</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">🌐 Développement d’un site (HTML / CSS / PHP)</div>
+    <div class="skill-desc">Création d’une plateforme web dynamique et fonctionnelle.</div>
+    <div class="skill-tag">Présence numérique</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">☁️ Création d’une VM sur Microsoft Azure</div>
+    <div class="skill-desc">Déploiement d’une infrastructure cloud basique.</div>
+    <div class="skill-tag">Mise à disposition de services</div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-title">📊 Optimisation du tableau de bord Azure</div>
+    <div class="skill-desc">Amélioration du suivi et de la visualisation cloud.</div>
+    <div class="skill-tag">Travail en mode projet</div>
+  </div>
+
+</div>
+
+</body>
+</html>
